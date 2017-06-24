@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+<title>Add Election</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Free elections for your school, Free elections for your organisation, Very less time required, 
+Held online elections" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="bootstrap.css" rel="stylesheet" type="text/css" media="all" /><!-- Bootstrap -->
+<link href="style.css" rel="stylesheet" type="text/css" media="all" />
+
+
+</head>
+<body>
+<!--banner start here-->
+<div class="banner-w3ls inner-banner-agileits" id="home">
+	<div class="container">
+		<!-- header -->
+                 <div class="header-inner">
+					  <h1 class="logo">
+						<a href="index.html"><span>Vote Online</span></a></h1>
+						<nav class="navbar navbar-default">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+							<!-- navbar-header -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav navbar-right">
+									<li><a href="#" class="active">Add Election</a></li>
+									<li><a href="servlet/Schedule">Schedule</a></li>
+									<li><a href="servlet/Nominees">Nominees</a></li>
+									<li><a href="servlet/Result">Result</a></li>
+								</ul>
+							</div>
+							<div class="clearfix"> </div>	
+						</nav>
+						<div class="header-right-w3ls">
+							<a href="servlet/Logout">LogOut</a>
+						</div>
+						<div class="clearfix"></div>
+				</div>
+</div>			
+</div>
+<!--//home-->
+<!--banner end here-->
+<!-- breadcrumbs -->
+<div class="w3l_agileits_breadcrumbs">
+   <div class="container">
+		<div class="w3l_agileits_breadcrumbs_inner">
+			<ul>
+				<li><a href="#">Home</a><span>&#187;</span></li>
+									
+				<li>Add Election details</li>
+				</ul>
+		</div>
+	</div>
+</div>
+<!-- //breadcrumbs -->
+<div class="login elite-app">
+	<div class="container">
+	<div class="tittle-agileinfo">
+				<h3>Add a position for the Election</h3>
+			</div>
+	<div  class="col-md-8 login-form-w3-agile" style="width:100%;" >
+			 <form action="servlet/OrganisationHome" >
+				<div class="w3_form_body_grid">
+					<span>Position</span>
+					<input type="text" name="Position" placeholder="Position" required="">
+				</div>
+				<div class="w3_form_body_grid w3_form_body_grid1">
+					<span>Start Date</span>
+					<input class="date" id="datepicker" name="SDate" type="text" value="yyyy-mm-dd" onfocus="this.value = '';"  required="">
+				</div>
+				<div class="w3_form_body_grid w3_form_body_grid1">
+					<span>Ending Date</span>
+					<input class="date" id="datepicker" name="EDate" type="text" value="yyyy-mm-dd" onfocus="this.value = '';"  required="">
+				</div>
+				<input type="submit" value="Add" >
+			</form>
+		</div>
+		
+	</div>
+</div>
+<!--login-inner-->
+
+<!-- footer -->
+
+<div class="footer-w3layouts">
+				<div class="container">
+				<div class="agile-copy">
+					<p> Developed and Maintained by <a href="https://www.linkedin.com/in/aastha-garg-461736b8/">Aastha Garg</a></p>
+				</div>
+				</div>
+</div>
+<!--/footer -->
+
+
+</body>
+</html>

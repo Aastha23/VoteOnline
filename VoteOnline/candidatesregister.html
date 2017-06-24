@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+<title>Candidate Register at Vote Online</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Free elections for your school, Free elections for your organisation, Very less time required, 
+Held online elections" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="bootstrap.css" rel="stylesheet" type="text/css" media="all" /><!-- Bootstrap -->
+<link href="style.css" rel="stylesheet" type="text/css" media="all" />
+
+
+</head>
+<body>
+<!--banner start here-->
+<div class="banner-w3ls inner-banner-agileits" id="home">
+	<div class="container">
+		<!-- header -->
+                 <div class="header-inner">
+					  <h1 class="logo">
+						<a href="index.html"><span> Vote Online</span></a></h1>
+						
+						<div class="header-right-w3ls">
+							<a href="login.html">Log In</a>
+						</div>
+						<div class="clearfix"></div>
+				</div>
+</div>			
+</div>
+<!--//home-->
+<!--banner end here-->
+<!-- breadcrumbs -->
+<div class="w3l_agileits_breadcrumbs">
+   <div class="container">
+		<div class="w3l_agileits_breadcrumbs_inner">
+			<ul>
+				<li><a href="index.html">Home</a><span>&#187;</span></li>
+									
+				<li>Register as Candidate</li>
+				</ul>
+		</div>
+	</div>
+</div>
+<!-- //breadcrumbs -->
+<div class="login elite-app">
+	<div class="container" >
+	<div class="tittle-agileinfo">
+				<h3>Register as Candidate</h3>
+	</div>
+		<div  class="col-md-8 login-form-w3-agile " >
+			<form action="servlet/CandidatesRegister" method="post" id="usform">
+				<div class="w3_form_body_grid">
+					<span>Organisation Number</span>
+					<input type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' name="No" 
+					   placeholder="Organisation Number" required="">
+				</div>
+				<div class="w3_form_body_grid">
+					<span>Admission Number</span>
+					<input type="text" name="AdmNo" placeholder="Admission Number" required="">
+				</div>
+				<div class="w3_form_body_grid">
+					<span>Position</span>
+					<input type="text" name="Position" placeholder="Position" required="">
+				</div>
+				<div class="w3_form_body_grid">
+					<span>Name</span>
+					<input type="text" name="Name" placeholder="Name" required="">
+				</div>
+				<div class="w3_form_body_grid">
+					<span>Gender</span>
+					<div class="w3_gender">
+						<div class="colr ert">
+							<input type="radio" name="radio" value="Male">Male
+						</div>
+						<div class="colr">
+							<input type="radio" name="radio" value="Female">Female
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="w3_form_body_grid w3_form_body_grid1">
+					<span>Date Of Birth</span>
+					<input class="date" id="datepicker" name="DOB" type="text" value="yyyy-mm-dd" onfocus="this.value = '';"  required="">
+				</div>
+				<div class="w3_form_body_grid">
+					<span>Email</span>
+					<input type="email" name="Email" placeholder="Email" required="">
+				</div>
+				<div class="w3_form_body_grid">
+					<span>Motto</span>
+					<input type="text" name="Motto" placeholder="Name" required="">
+				</div>
+				<div class="w3_form_body_grid">
+					<span>Why should we vote you?</span>
+					<textarea rows="4" cols="50" name="Comment" form="usform">
+					Enter text here...</textarea>
+				</div>
+				
+				
+				<div class="w3_form_body_grid w3_form_body_grid1">
+					<span>Password</span>
+					<input type="password" name="Pass" placeholder="Password" required="">
+				</div>
+				<input type="submit" value="Register">
+			</form>
+
+		</div>
+		<div class="col-md-4 login-right-info">
+			<h3 class="subhead-agileits">Why Join Vote Online</h3>
+			<p class="para-agileits-w3layouts" >Holding elections has never been this easy. Use technology at its best.</p>
+			<ul>
+				<li><i class="fa fa-check" aria-hidden="true"></i>Free of Cost</li>
+				<li><i class="fa fa-check" aria-hidden="true"></i>Time Saver</li>
+				<li><i class="fa fa-check" aria-hidden="true"></i>Ease of Use</li>
+				<li><i class="fa fa-check" aria-hidden="true"></i>Open Source</li>
+				<li><i class="fa fa-check" aria-hidden="true"></i>Privacy of Vote</li>
+				<li><i class="fa fa-check" aria-hidden="true"></i>Simple yet Powerful</li>
+				<li><i class="fa fa-check" aria-hidden="true"></i>Easily Managable</li>
+				
+			</ul>
+			<h5>Already a member....<i class="fa fa-hand-o-down" aria-hidden="true"></i></h5>
+			<div class="sim-button button12"><a href="login.html">Login</a></div>
+		</div>
+		
+	</div>
+</div>
+<!--login-inner-->
+<!-- footer -->
+
+<div class="footer-w3layouts">
+				<div class="container">
+				<div class="agile-copy">
+					<p> Developed and Maintained by <a href="https://www.linkedin.com/in/aastha-garg-461736b8/">Aastha Garg</a></p>
+				</div>
+				</div>
+</div>
+<!--/footer -->
+<!-- js --> 
+<script type='text/javascript' src='jquery-2.2.3.min.js'></script>
+<script type="text/javascript" src="bootstrap-3.1.1.min.js"></script>
+<!-- js -->
+
+</body>
+</html>
